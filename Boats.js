@@ -46,6 +46,7 @@ let BoatList = () => {
         <Text>{boat.name}</Text>
         <Text>{boat.description}</Text>
         <Image source={boat.picture} />
+        <Text>{'\n'}</Text>
       </View>
     );
   });

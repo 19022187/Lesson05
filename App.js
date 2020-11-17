@@ -15,10 +15,10 @@ const App: () => React$Node = () => {
   return (
     <View>
       <ScrollView>
-        <Text>Lesson 05 Exercises</Text>
+        <Text>Lesson 05 Exercises{'\n'}</Text>
         <MovieList />
         <Text>{'\n\n'}</Text>
-        <Text>Lesson 05 Mini Project</Text>
+        <Text>Lesson 05 Mini Project{'\n'}</Text>
         <BoatList />
       </ScrollView>
     </View>

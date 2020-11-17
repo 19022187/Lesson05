@@ -53,6 +53,7 @@ let MovieList = () => {
         <Text>{name.title}</Text>
         <Text>{name.year}</Text>
         <Image source={name.poster} />
+        <Text>{'\n'}</Text>
       </View>
     );
   });
