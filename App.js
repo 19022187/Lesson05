@@ -15,6 +15,7 @@ const App: () => React$Node = () => {
   return (
     <View>
       <ScrollView>
+        <MovieList />
         <BoatList />
       </ScrollView>
     </View>
